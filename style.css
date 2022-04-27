@@ -4,24 +4,25 @@ body{
 
 
 h1 , h2{
-	font-family: 'Trebuchet MS', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: #333432;
 	padding-left: 10px;
 }
 
 p{
-	font-family: 'Trebuchet MS', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: white;
 	padding-left: 10px;
 }
 
 a{
-	font-family: 'Trebuchet MS', sans-serif;
-	color: black;
+	font-family: 'Poppins', sans-serif;
+	color: #F0F0F0;
+	text-decoration: none;
 }
 
 ul{
-	font-family: 'Trebuchet MS', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	color: white;
 }
 
@@ -62,10 +63,10 @@ nav{
 
 .buttons{
 	text-align: center;
-	width: 15%;
-	padding: 10px;
+	width: auto;
+	padding: 10px 25px;
 	background-color: #F0F0F0;
-	border-radius: 30px;
+	border-radius: 20px;
 }
 
 
@@ -89,6 +90,7 @@ nav{
 	height: 300px;
 	border-radius: 150px;
 	margin: 5px;
+	border: 5px solid #F0F0F0;
 	
 }
 
@@ -105,26 +107,17 @@ nav{
 	text-align: center;
 }
 
-
-}
-
-
-
-span{
-/*	border: 2px solid black;*/
-}
-
 section{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	padding: 1%;
 	background-color: #333432;
+	box-shadow: 0 0 5px;
 }
 
 
 #research{
-	height: 500px;
-	border-radius: 5px;
+	height: auto;
 	margin: 5px;
 }
 
