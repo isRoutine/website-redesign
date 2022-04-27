@@ -1,5 +1,5 @@
 body{
-	background-color: #E0E1E0; 
+	background-color: white; 
 }
 
 
@@ -15,16 +15,22 @@ p{
 	padding-left: 10px;
 }
 
+a{
+	font-family: 'Trebuchet MS', sans-serif;
+	color: black;
+}
+
 ul{
 	font-family: 'Trebuchet MS', sans-serif;
 	color: white;
 }
 
-
+/* ---------------- NAVBAR ------------------*/
 
 nav{
 	height: 65px;
-	background-color: #333432;
+	margin-bottom: 10px;
+	background-color: white;
 }
 
 #nav-container{
@@ -35,17 +41,71 @@ nav{
 }
 
 #logo-container{
-	border: 3px solid brown;
-	width: 10%;
+	text-align: center;
+	width: 15%;
+}
+
+
+#logo-container img{	
+	width: 125px;
+	height: 50px;
+	margin: 5px;
 }
 
 #buttons-container{
 	display: flex;
-	border: 2px solid brown;
+	align-items: center;
 	justify-content: flex-end;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.buttons{
+	text-align: center;
+	width: 15%;
+	padding: 10px;
+	background-color: #F0F0F0;
+	border-radius: 30px;
+}
+
+
+/* ---------------- ABOUT ------------------*/
+
+#about-container{
+	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: space-around;
-	width: 60%;
+	height: auto;
+
+}
+
+#about-photo{
+	text-align: center;
+}
+
+#about-photo img{
+	width: 300px;
+	height: 300px;
+	border-radius: 150px;
+	margin: 5px;
+	
+}
+
+#about-info{
+	width: 50%;
+	margin: 5px;
+	justify-content: center;
+
+	background-color: white;
+}
+
+#about h1,h2,p{
+	color: black;
+	text-align: center;
+}
+
+
 }
 
 
@@ -61,14 +121,11 @@ section{
 	background-color: #333432;
 }
 
-img{
-	width: 70%;
-	height: 70%;
-	padding: 30px;
-}
 
 #research{
 	height: 500px;
+	border-radius: 5px;
+	margin: 5px;
 }
 
 .research-elements{
@@ -91,28 +148,7 @@ h1.research-elements{
 }
 
 
-#flex-container{
-	display: flex;
-	height: 300px;
-}
 
-#flex-item-sx{
-	background-color: white;
-	width: 10%;
-	flex-grow: 1;
-	margin: 5px;
-}
-
-#flex-item-dx{
-	background-color: white;
-	width: 60%;
-	flex-grow: 1;
-	margin: 5px;
-}
-
-p.info-elements{
-	color: black;
-}
 
 
 
