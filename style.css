@@ -17,9 +17,10 @@ p{
 
 a{
 	font-family: 'Poppins', sans-serif;
-	color: #F0F0F0;
+	color: black;
 	text-decoration: none;
 }
+
 
 ul{
 	font-family: 'Poppins', sans-serif;
@@ -43,7 +44,8 @@ nav{
 
 #logo-container{
 	text-align: center;
-	width: 15%;
+	width: auto;
+	margin: 10px;
 }
 
 
@@ -68,6 +70,18 @@ nav{
 	background-color: #F0F0F0;
 	border-radius: 20px;
 }
+
+.buttons:hover{
+	text-align: center;
+	width: auto;
+	padding: 10px 25px;
+	background-color: #D8D8D8;
+	color: white !important;
+	border-radius: 20px;
+
+}
+
+
 
 
 /* ---------------- ABOUT ------------------*/
@@ -124,6 +138,12 @@ section{
 .research-elements{
 	margin: 5px;
 	margin-bottom: 20px;
+}
+
+#research a{
+	font-family: 'Poppins', sans-serif;
+	color: #F0F0F0;
+	text-decoration: none;
 }
 
 h1.research-elements{
